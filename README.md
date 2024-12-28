@@ -14,7 +14,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone <URL вашего репозитория>
+git clone https://github.com/DimaVakhov/PythonUserApi
 cd <название папки проекта>
 ```
 
