@@ -1,13 +1,13 @@
 import psycopg2
-from config import db_host, db_dbname, db_user, db_password, db_port
+from decouple import config
 
 try:
     connection = psycopg2.connect(
-        host=db_host,
-        dbname=db_dbname,
-        user=db_user,
-        password=db_password,
-        port=db_port
+        host=config("DB_HOST"),
+        dbname=config("DB_NAME"),
+        user=config("DB_USER"),
+        password=config("DB_PASSWORD"),
+        port=config("DB_PORT")
     )
     connection.autocommit = True
 
