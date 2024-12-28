@@ -1,0 +1,6 @@
+psycopg2~=2.9.10
+fastapi~=0.115.6
+uvicorn~=0.34.0
+python-jose~=3.3.0
+passlib~=1.7.4
+python-decouple~=3.8
