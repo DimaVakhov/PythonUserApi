@@ -31,6 +31,11 @@ pip install -r requirements.txt
 Создайте файл `.env` в корне проекта и укажите в нем следующие значения:
 ```
 SECRET_KEY=your_secret_key_here
+DB_HOST=your_host
+DB_NAME=your_db_name
+DB_USER=your_user_name
+DB_PASSWORD=your_db_password
+DB_PORT=your_port
 ```
 - Замените `your_secret_key_here` на сгенерированный ключ (например, через `secrets.token_hex(32)`).
 - Укажите параметры для подключения к вашей базе данных PostgreSQL.
